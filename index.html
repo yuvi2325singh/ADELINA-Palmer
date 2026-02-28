@@ -188,17 +188,23 @@
             <p>Contact me for commisions or just to say a few nice words, I won’t mind at all.</p>
         </div>
     <div class="input-box">
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Your name">
+        <form id="form">
+            
+            <label for="f1">Name</label>
+            <input type="text" id="f1" placeholder="Your name">
+            <small class="error-text"></small>
 
-            <label>Your email*</label>
-            <input type="text" placeholder="Your email address">
+            <label for="f2">Your email*</label>
+            <input type="email" id="f2" placeholder="Your email address">
+            <small class="error-text"></small>
 
-            <label>Message</label>
-            <textarea placeholder="Enter your message" required></textarea>
+
+            <label for="f3">Message</label>
+            <textarea id="f3" placeholder="Enter your message" required></textarea>
+            <small class="error-text"></small>
+
         </form>
-        <button text="submit">Submit</button>
+        <button type="button" onclick="addData()">Submit</button>
     </div>
     </div>
 
