@@ -1,3 +1,19 @@
+// const toggle = document.getElementById("themeToggle");
+//         const body = document.body;
+//         const icon = document.getElementById("icon");
+
+//         toggle.addEventListener("click", () => {
+//             body.classList.toggle("dark");
+
+//             if (body.classList.contains("dark")) {
+//                 icon.classList.remove("fa-sun");
+//                 icon.classList.add("fa-moon");
+//             } else {
+//                 icon.classList.remove("fa-moon");
+//                 icon.classList.add("fa-sun");
+//             }
+//         });
+
 const elements = document.querySelectorAll(".animate");
 
 const observer = new IntersectionObserver((entries, observer) => {
