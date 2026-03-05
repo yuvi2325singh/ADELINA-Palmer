@@ -64,8 +64,11 @@ function addData() {
         errorText.innerText = "";
     }
 
-    if (!valid) return;
-
-    alert("Form Submitted");
     document.getElementById("form").reset();
 }
+
+function addData() {
+    setTimeout(function () {
+      window.location.href = "index.html";
+    }, 2000);
+  }
